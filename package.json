@@ -1,7 +1,7 @@
 {
   "name": "thiet-ke-web-nhom1",
   "version": "1.0.0",
-  "description": "Duc: index.html\r Ngoc:categoryIndoor.html\r Sy: home.html\r Thinh: product.html\r Nam: sign_in.html",
+  "description": "Duc: index.html\r Ngoc:categoryIndoor.html\r Sy: index.html\r Thinh: product.html\r Nam: sign_in.html",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

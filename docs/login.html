@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../Grid layout/grid.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="../src/css/footer.css">
+    <link rel="stylesheet" href="../docs/css/footer.css">
     <link rel="stylesheet" href="./css/loginregister.css">
     <link rel="icon" href="../img/home/logo.png">
     <title>Trồng cây</title>
@@ -51,7 +51,7 @@
                     
                     <div class="header__top-body">
                         <div class="header__logo">
-                                    <a href="home.html" class="header__logo-link"><img src="../img/logo.webp" alt=""></a>
+                                    <a href="index.html" class="header__logo-link"><img src="../img/logo.webp" alt=""></a>
                                 </div>
         
                                 <div class="header__search hide-on-mobile-tablet">
@@ -83,7 +83,7 @@
                                         </label>
 
                                         <ul class="nav__mobile-list">
-                                            <li class="nav__mobile-item"><a class="nav__mobile-link" href="home.html">Home</a></li>
+                                            <li class="nav__mobile-item"><a class="nav__mobile-link" href="index.html">Home</a></li>
                                             <li class="nav__mobile-item"><a class="nav__mobile-link" href="aboutus.html">About us</a></li>
                                             <li class="nav__mobile-item">
                                                 <input type="checkbox" hidden class="nav__input-product" id="nav__product-id">
@@ -115,7 +115,7 @@
             <div class="grid wide">
                 <div class="navbar">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="home.html" class="nav__item-link">Home</a></li>
+                        <li class="nav__item"><a href="index.html" class="nav__item-link">Home</a></li>
                         <li class="nav__item"><a href="aboutus.html" class="nav__item-link">About us</a></li>
                         <li class="nav__item">
                             <a href="" class="nav__item-link">Product<i class="fas fa-chevron-down" id="nav__produce-icon"></i></a>
@@ -144,42 +144,32 @@
                     <ul>
                         <li><a href="#">Home</a> </li>
                         <i class="fas fa-chevron-right"></i>
-                        <li><a href="#">Registration page</a></li>
+                        <li><a href="#">Login page</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-
         <div class="grid wide">
             <div class="row">
                 <div class="login l-6 l-o-3 m-8 m-o-2 c-12">
                     <div class="start">
-                        <span>Register an account</span>
+                        <span>Account Login</span>
                     </div>
                     <div class="icon">
-                        <!-- <a href="#" class="icon__social"><img width="129px" height="37px" alt="facebook-login-button" src="//bizweb.dktcdn.net/assets/admin/images/login/fb-btn.svg"></a>
-                        <a href="#" class="icon__social"><img width="129px" height="37px" alt="google-login-button" src="//bizweb.dktcdn.net/assets/admin/images/login/gp-btn.svg"></a> -->
+                        <!-- <img width="129px" height="37px" alt="facebook-login-button" src="//bizweb.dktcdn.net/assets/admin/images/login/fb-btn.svg">
+                        <img width="129px" height="37px" alt="google-login-button" src="//bizweb.dktcdn.net/assets/admin/images/login/gp-btn.svg"> -->
                     </div>
-                    <form class="accout" id="form">
-                        <div class="control">
-                            <div class="fix">
-                                <label>User Name
-                                <span class="required">*</span>
-                                </label>
-                            </div>  
-                                <input type="text" class="Name-input" placeholder="Eg: Potter0510" id="Name">
-                                <div class="massage">error</div>
-                        </div>
-                        <div class="control">
+                    <div class="control">
+                        <div class="Email">
                             <div class="fix">
                                 <label>Email
                                 <span class="required">*</span>
                                 </label>
-                            </div>  
+                            </div>
                                 <input type="text" class="Email-input" placeholder="Eg: abc@gmail.com" id="Email">
                                 <div class="massage">error</div>
-                        </div>
-                        <div class="control">
+                            </div>
+                        <div class="Password">
                             <div class="fix">
                                 <label>Password
                                 <span class="required">*</span>
@@ -188,20 +178,14 @@
                                 <input type="password" class="Password-input" placeholder="Password" id="Password">
                                 <div class="massage">error</div>
                         </div>
-                        <div class="control">
-                            <div class="fix">
-                                <label>Rewrite Password 
-                                <span class="required">*</span>
-                                </label>
-                            </div>  
-                                <input type="password" class="Password-input" placeholder="Rewrite password" id="Password2">
-                                <div class="massage">error</div>
-                            </div>
-                    </form>
-                    <div class="content">
-                        <button type="submit" class="button__submit">Register</button>
-                         <a href="./login.html" class="style-link">Login</a>
                     </div>
+                        <div>
+                            <button type="submit" class="button__submit">Login</button>
+                        </div>
+                        <p class="link"><a href="#" class="link-style">Forgot password?</a></p>
+                        <div class="text-login">
+                            <p>Don't have an account yet? Sign up <a href="./register.html">here</a></p>
+                        </div>
                 </div>
             </div>
         </div>
@@ -301,11 +285,14 @@
                 </div>
             </div>
         </footer>
+
         <button href="" class="back-to-top active">
             <i class="back-to-top-icon fa fa-angle-double-up"></i>
         </button>
-    </div>    
+    </div>
+    </body>
+    </html>
     <script src="./js/category.js"></script>
     <script src="./js/loginregister.js"></script>
 </body>
-</html> 
+</html>
